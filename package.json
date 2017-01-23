@@ -1,0 +1,33 @@
+{
+  "name": "fcc-timestamp-microservice",
+  "version": "0.0.1",
+  "description": "FreeCodeCamp Timestamp Microservice project - FCC Backend certificate",
+  "main": "server.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgrcode/FCC-Timestamp-Microservice.git"
+  },
+  "keywords": [
+    "FCC",
+    "FreeCodeCamp",
+    "Backend"
+  ],
+  "author": "Daniel González Reina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgrcode/FCC-Timestamp-Microservice/issues"
+  },
+  "homepage": "https://github.com/dgrcode/FCC-Timestamp-Microservice#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "jquery": "^3.1.1",
+    "jsdom": "^9.9.1",
+    "mocha": "^3.2.0",
+    "morgan": "^1.7.0"
+  }
+}
