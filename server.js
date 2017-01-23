@@ -37,7 +37,7 @@ app.get('/:input', (req, res) => {
 	res.end();
 });
 
-app.get('/', (req,res) =>  res.sendfile(__dirname + '/index.html'));
+app.get('/', (req,res) =>  res.sendFile(__dirname + '/index.html'));
 
 app.listen(3000);
 console.log('App listening on port 3000')
